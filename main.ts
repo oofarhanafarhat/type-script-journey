@@ -1,48 +1,20 @@
-// // opreators in type script
-// // arithmatic opreators
-// // addition opreator
-// let a = 5;
-// let b = 6;
-// console.log(a + b);
+// comparsion in typescript
+//   equall to
+// just value equal to duble == equal
+let class1 = 100;
+let student = 200;
+console.log(class1 == student);
+// type and value is equal to tuple =
+let class2 = "student";
+let class3 = "student";
+console.log(class2 === class3);
+// greter ten and equal <=
 
-// let c = 10;
-// let D = 8;
-// console.log(c - D);
+let sindh = "sindh";
+let punjab = "punjab";
+console.log(sindh <= punjab);
+// if i use !<= in log then answer is true because !<= change answer to oppsite site
 
-// let p = 20;
-// let q = 2;
-// console.log(p * q);
-
-// let x = 40;
-// let y = 6;
-// console.log(x / y);
-
-// let n = 60;
-// let m = 7;
-// console.log(n % m);
-
-// let u = 4;
-// let v = 3;
-// console.log(u ** v);
-
-// let s = 3;
-// let h = 5;
-// console.log(s == h);
-
-// let e = 4 + (6 / 2) * 4 - 1;
-// console.log(e);
-
-// let f = 20;
-// let k = 30;
-// console.log(f > k)
-let grocery;
-let suger = 1000;
-let tea = 500;
-let atta = 2000;
-let oil = 2000;
-let beans = 3000;
-let soup = 500;
-let surf = 700;
-let milk = 2000;
-let bill = suger + tea + atta + oil + beans + soup + surf + milk;
-console.log(bill);
+let kps = "1000";
+let bss = "2000";
+console.log(kps > bss);
