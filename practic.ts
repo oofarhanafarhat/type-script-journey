@@ -1,0 +1,10 @@
+let bookname = "amerbel";
+console.log(bookname);
+let fruitname = "mango";
+console.log(fruitname);
+let studentname = "kashif";
+console.log(studentname);
+let colorname = "yallow";
+console.log(colorname);
+let mobilecompany = "apple";
+console.log(mobilecompany);
