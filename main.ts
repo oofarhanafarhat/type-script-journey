@@ -1,31 +1,30 @@
-// // logical operators
-// // logical operators three types hoty hain
-// // 1 and operator woh hoty hain jis men dono condition true ho tb he true karta hai ager ak true ak false ho to false result show hoga is ko define karny k liye dono condition k bech men && lagaya jata hai.
-// let a = 10;
-// let b = 10;
-// console.log(a == b && b <= a);
+// if else basically agr mager ki khani hai
+// santex
+// if(conditions){console.log("");here code is exucated  is called block scoup
+// }
 
-// // 0r operators woh hoty hain jin ko true  karny k liye koi ak condition bhi true ho to ya chalta hai in ka sign|| hai
-// let c1 = 12;
-// let b1 = 20;
-// let c = c1 > b1 || b1 >= c1;
-// console.log(c);
+// else{}
 
-// // NOT operator (!) marks sy show hoty hain in ko define karny k liye koi ak condition bhi laga sakhty hain
+// if conditions true to run if Code
+// if condition false then run else code
+// we can use else if many time  for more conditions between if and else
 
-// let s1 = 100;
-// let s2 = !(s1 <= 50);
-// console.log(s2);
-// arthimatic assigment operators
+let userName: string = "azlan20";
+let password: number = 1234;
+if (userName == "azlan20" && password == 1234) {
+  console.log("i will go to school");
+} else if (userName == "azlan30" || password == 1234) {
+  console.log("i will go to market");
+} else {
+  console.log("stay at home");
+}
 
-let num = 10;
-num += 8;
-console.log(num);
-
-let sheet = 30;
-sheet *= 3;
-console.log(sheet);
-
-let baskit = 100;
-baskit /= 4;
-console.log(baskit);
+let class1: string = "200";
+let class2: string = "300";
+if (class1 <= class2) {
+  console.log("should take class");
+} else if (class2 >= class1) {
+  console.log("visit the computer lab");
+} else {
+  console.log("leave the class");
+}
